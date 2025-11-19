@@ -1,3 +1,4 @@
+from .curso import Curso
 class Campus:
     def __init__(self, nome: str, sigla: str):
         self.nome = nome
